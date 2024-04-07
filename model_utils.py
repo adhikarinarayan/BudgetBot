@@ -13,7 +13,8 @@ from langchain.memory import ConversationBufferMemory
 import os
 from dotenv import load_dotenv
 load_dotenv()
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDO4JVWRxI-lvyfyYaby8-uPkn42g6cJMU"
+# ENTER THE API KEY HERE
+os.environ['GOOGLE_API_KEY'] = " "
 
 #Process single PDF
 def get_pdf_text(pdf_docs):
