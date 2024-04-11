@@ -1,0 +1,8 @@
+langchain
+pinecone-client
+langchain-pinecone
+python-dotenv
+pypdf 
+sentence_transformers
+google-generativeai
+streamlit
