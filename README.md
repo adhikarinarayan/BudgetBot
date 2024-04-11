@@ -1,7 +1,24 @@
 # BudgetBotUK
-BudgetBotUK is an LLM-powered chatbot that leverages RAG architecture to provide answers to questions related to Budget of Uttarakhand. Currently, It can answer all the questions related to the budget speech given on the floor of Vidhansabha of Uttarakhand in 2024.
+BudgetBotUK is an LLM-powered chatbot that leverages RAG architecture to provide answers to questions related to the Budget of Uttarakhand, India. Currently, It can answer all the questions related to the budget speech given on the floor of Vidhansabha of Uttarakhand in 2024.
 
 **Document used for RAG**: https://budget.uk.gov.in/files/english_translate_23-24_bhashan.pdf
+
+---
+## Tools used:
+1. langchain
+2.  google PaLM
+3.  FAISS
+4.  Streamlit
+
+
+## Updated v2
+- In the updated version **all-MiniLM-L6-v2** model is used to create the embeddings and **pinecone** is used as a vector database.
+
+**Instructions**: Add Pinecone and Google API keys in the .env file and add the pinecone index name in the utils.py
+
+
+
+---
 
 
 ## Chatbot architecture
